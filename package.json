@@ -10,12 +10,7 @@
   "author": "",
   "license": "ISC",
   "description": "",
-  
-  "main": "index.js",
-  "keywords": [],
-  "repository": {
-    "type": "git",
-    "url":"https://github.com/jtolong/INM320-A4-ACCESSIBILITY.git"
-  },
-  
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
 }
