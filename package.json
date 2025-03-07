@@ -1,0 +1,21 @@
+{
+  "name": "assignment-5",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server --baseDir=\"public\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  
+  "main": "index.js",
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url":"https://github.com/jtolong/INM320-A4-ACCESSIBILITY.git"
+  },
+  
+}
