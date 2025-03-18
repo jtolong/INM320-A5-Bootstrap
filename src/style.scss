@@ -47,3 +47,34 @@ footer {
     font-size: 1rem;
     color: #6c757d;
 }
+
+/* Ensure equal height and spacing for cards next to the graph */
+.card {
+    margin-bottom: 10px;
+}
+
+.card:last-child {
+    margin-bottom: 0;
+}
+<!-- Adjusted SCSS -->
+<style>
+  .info-box {
+    height: calc(100% / 4 - 8px); /* Keeps proportional height */
+  }
+
+  .chart-container {
+    height: 300px;
+  }
+
+  .badge {
+    font-size: 0.8rem;
+  }
+
+  .navbar-nav {
+    margin-left: 0; /* Removes left margin */
+  }
+
+  .text-blue {
+    color: blue;
+  }
+</style>
