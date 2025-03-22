@@ -27,7 +27,7 @@ section {
     border: 1px solid #dee2e6;
     border-radius: 5px;
     padding: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 footer {
@@ -37,7 +37,7 @@ footer {
     padding: 10px 0;
 }
 
-/* Styles for Section 6 and 7 */
+/* Styles for Section Tickets and Tasks */
 .card-title {
     font-size: 1.25rem;
     font-weight: bold;
@@ -59,7 +59,7 @@ footer {
 <!-- Adjusted SCSS -->
 <style>
   .info-box {
-    height: calc(100% / 4 - 8px); /* Keeps proportional height */
+    height: calc(100% / 6 - 16px); /* Keeps proportional height */
   }
 
   .chart-container {
