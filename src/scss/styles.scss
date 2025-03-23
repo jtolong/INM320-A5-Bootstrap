@@ -40,6 +40,15 @@
   background-color: #f8f9fa; /* Light gray background */
   padding: 10px;
   border-radius: 5px;
+  display: flex;
+  flex-direction: column; // Set the direction of the flex container to column
+  align-items: flex-end; // Align items to the right
+  margin-bottom: 0; // Reset bottom margin
+
+  .nav-item {
+      // You can add more styles to the items here if needed
+      margin: 5px 0; // Example of spacing between items
+  }
 }
 
 .overdue-box {
