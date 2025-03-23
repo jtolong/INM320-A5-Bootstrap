@@ -4,8 +4,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "lite-server --baseDir=\"public\"",
-    "watch": "sass --watch src/scss:public/assets/css",
-    "start": "concurrently \"npm run watch\" \"npm run dev\"",
+    "start": "npm run dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -14,7 +13,6 @@
   "description": "",
   "devDependencies": {
     "concurrently": "^6.5.1",
-    "lite-server": "^2.6.1",
-    "sass": "^1.32.8"
-  }
+    "lite-server": "^2.6.1"
+  }
 }
