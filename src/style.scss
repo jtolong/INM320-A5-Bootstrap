@@ -77,4 +77,47 @@ footer {
   .text-blue {
     color: blue;
   }
+
+  <!-- Adjusted SCSS -->
+<style>
+  .info-box {
+    height: calc(100% / 4 - 8px); /* Keeps proportional height */
+  }
+
+  .chart-container {
+    height: 300px;
+  }
+
+  .badge {
+    font-size: 0.8rem;
+  }
+
+  .navbar-nav {
+    margin-left: 0; /* Removes left margin */
+  }
+
+  .text-blue {
+    color: blue;
+  }
+
+  .list-group-item {
+    margin-bottom: 10px; /* Adds spacing between items */
+  }
+
+  .list-group-item span {
+    background: none; /* Remove background */
+    border-radius: 0; /* Remove border radius */
+    padding: 0; /* Remove padding */
+  }
+
+  .card-header {
+    border-bottom: 1px solid #ddd; /* Adds a line below the header */
+  }
+
+  .overdue-box {
+    background-color: #ffffff; /* White background */
+    color: rgb(46, 13, 237); /* Blue text */
+    padding: 10px;
+    border-radius: 10px;
+  }
 </style>
