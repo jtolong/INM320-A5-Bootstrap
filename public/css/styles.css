@@ -82,9 +82,14 @@
 #unresolved, #open, #overdue, #hold{
   
   margin-top: 2%; /* Adjust the margin value as needed */
-  margin-bottom: 2%; /* Adjust the margin value as needed */
+  margin-bottom: 2%; /* Adjust the margin value as needed */  
   
-  
+}
+
+
+.card-header > p{
+  margin-right: 75%;
+
 }
 #graphtitle{
   color: rgba(37, 39, 51, 1);
