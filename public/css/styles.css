@@ -64,6 +64,9 @@
 
 .navbar-brand {
   margin-left: 10px; /* Add margin to the left of the navbar brand */
+  font-size: 18px; /* Adjusted font size */
+  margin: top 0; /* Adjusted margin */;
+  margin-bottom:65px;
   
 }
 
