@@ -2,25 +2,23 @@
   background-color: rgba(54, 55, 64, 1) !important;
 }
 
-.d-flex{
+.d-flex {
   flex-shrink: 1 !important;
   width: auto;
 }
+
 .text-white {
   color: #ffffff;
 }
 
-.fs-1 {
-  font-size: 18px;
-  margin-top: 0;
-}
-
 .nav-item {
-  width: 100%; /*nav item fills the container width */
+  width: 100%;
+  /*nav item fills the container width */
   height: 50px;
   display: flex;
   align-items: center;
-  padding-left: 10px; /* Add padding to align content */
+  padding-left: 10px;
+  /* Add padding to align content */
 }
 
 .nav-item svg {
@@ -35,11 +33,13 @@
 .nav-item:hover {
   background-color: #495057;
   cursor: pointer;
-  border-left: 3px solid rgba(221, 226, 255, 1); /* Add left border on hover */
+  border-left: 3px solid rgba(221, 226, 255, 1);
+  /* Add left border on hover */
 }
 
 .nav-item:hover svg {
-  fill: #DDE2FF; /* Change SVG color on hover */
+  fill: #DDE2FF;
+  /* Change SVG color on hover */
 }
 
 #active {
@@ -50,12 +50,13 @@
 
 /* divider line set width height color and spacing */
 #solid {
-  width: 100%; /* Adjusted to 100% for better responsiveness */
+  width: 100%;
+  /* Adjusted to 100% for better responsiveness */
   padding: none;
-  width: 100%; 
-  height: 1px; 
-  background-color: #DFE0EB; 
-  margin: 10px 0; 
+  width: 100%;
+  height: 1px;
+  background-color: #DFE0EB;
+  margin: 10px 0;
   border: none;
 }
 
@@ -64,58 +65,70 @@
 }
 
 .navbar-brand {
-  margin-left: 10px; /* Add margin to the left of the navbar brand */
-  font-size: 18px; /* Adjusted font size */
-  margin: top 0; /* Adjusted margin */;
-  margin-bottom:65px;
-  
+  margin-left: 10px;
+  /* Add margin to the left of the navbar brand */
+  font-size: 18px;
+  /* Adjusted font size */
+  margin: top 0;
+  /* Adjusted margin */
+  ;
+  margin-bottom: 65px;
+
 }
 
 .container-fluid {
-  padding: 0; /* Adjusted to remove unnecessary padding */
+  padding: 0;
+  /* Adjusted to remove unnecessary padding */
   align-items: center;
   background-color: rgba(247, 248, 252, 1);
-  overflow-x: hidden; /* Hide horizontal overflow */
+  overflow-x: hidden;
+  /* Hide horizontal overflow */
 }
 
-.card{
+.card {
   text-align: center;
   width: 100%;
 }
 
-.card:hover{
+.card:hover {
   cursor: pointer;
   color: rgba(55, 81, 255, 1);
   border-color: rgba(55, 81, 255, 1);
 }
-#unresolved, #open, #overdue, #hold{
-  
-  margin-top: 2%; 
-  margin-bottom: 2%;   
-  /* Adjust the margin value */
-  margin-top: 2%; 
+
+#unresolved,
+#open,
+#overdue,
+#hold {
+
+  margin-top: 2%;
   margin-bottom: 2%;
-  
+  /* Adjust the margin value */
+  margin-top: 2%;
+  margin-bottom: 2%;
+
 }
 
 
-.card-header > p{
+.card-header>p {
   margin-right: 75%;
 
 }
-#graphtitle{
+
+#graphtitle {
   color: rgba(37, 39, 51, 1);
   padding-top: 3px;
   margin-right: 75%;
   font-size: 19px;
 }
-#graphtext{
+
+#graphtext {
   color: rgba(159, 162, 180, 1);
   margin-right: 65%;
   font-size: 12px;
 }
 
-.text-small{
+.text-small {
   color: rgba(159, 162, 180, 1);
   margin-right: 65%;
   font-size: 12px;
@@ -123,12 +136,13 @@
   text-emphasis: none;
 }
 
-#create{
+#create {
   color: rgba(159, 162, 180, 1);
 
 }
+
 /* Flex-grow for the graph card to make it expand */
-.card-graph{
+.card-graph {
   flex-grow: 1;
 }
 
@@ -138,9 +152,7 @@
 
 /* Allow horizontal scrolling for rows */
 .row.flex-nowrap {
-  width: 100%; 
-  height: auto; 
-  overflow-x: auto; 
+  width: 100%;
+  height: auto;
+  overflow-x: auto;
 }
-
-
