@@ -106,6 +106,10 @@
   text-emphasis: none;
 }
 
+#create{
+  color: rgba(159, 162, 180, 1);
+
+}
 .card-graph{
   flex-grow: 1;
 }
