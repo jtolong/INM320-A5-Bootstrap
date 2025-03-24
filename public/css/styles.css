@@ -47,10 +47,8 @@
 
 /* divider line */
 #solid {
-  width: 100%; /* Make the divider line as wide as the container */
-  height: 1px; /* Set the height of the divider line */
-  background-color: #DFE0EB; /* Set the color of the divider line */
-  margin: 10px 0; /* Add some margin for spacing */
+  width: 100%; /* Adjusted to 100% for better responsiveness */
+  padding: 5%;
 }
 
 #mynavbar {
