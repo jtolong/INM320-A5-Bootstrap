@@ -10,7 +10,9 @@
   color: #ffffff;
 }
 
-
+.fs-1 {
+  font-size: calc(0.5rem + 1vw);
+}
 
 .nav-item {
   width: 100%; /*nav item fills the container width */
@@ -84,8 +86,8 @@
 }
 #unresolved, #open, #overdue, #hold{
   
-  margin-top: 2%; /* Adjust the margin value as needed */
-  margin-bottom: 2%; /* Adjust the margin value as needed */  
+  margin-top: 2%; 
+  margin-bottom: 2%;   
   /* Adjust the margin value */
   margin-top: 2%; 
   margin-bottom: 2%;
@@ -127,7 +129,7 @@
 }
 
 #graph {
-  width: 100%;
+  width: 80%;
 }
 
 /* Allow horizontal scrolling for rows */
