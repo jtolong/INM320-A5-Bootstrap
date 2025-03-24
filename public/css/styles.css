@@ -53,6 +53,7 @@
   height: 1px; 
   background-color: #DFE0EB; 
   margin: 10px 0; 
+  border: none;
 }
 
 #mynavbar {
@@ -135,4 +136,5 @@
   height: auto; 
   overflow-x: auto; 
 }
+
 
