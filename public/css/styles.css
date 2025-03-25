@@ -14,13 +14,16 @@
 .nav-item {
   width: 100%;
   /*nav item fills the container width */
+  color:#495057
   height: 50px;
   display: flex;
   align-items: center;
   padding-left: 10px;
   /* Add padding to align content */
 }
-
+.nav-item >li{
+  color: #495057;
+}
 .nav-item svg {
   margin-right: 10px;
 }
