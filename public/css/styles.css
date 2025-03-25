@@ -11,19 +11,18 @@
   color: #A4A6B3 !important;
 }
 
+a.nav-link.text-white:hover {
+  color: #DDE2FF !important; /* Ensure the color changes on hover */
+}
+
 .nav-item {
   width: 100%;
-  /*nav item fills the container width */
-  color:#495057;
   height: 50px;
   display: flex;
   align-items: center;
   padding-left: 10px;
-  /* Add padding to align content */
 }
-.nav-item >li{
-  color: #495057;
-}
+
 .nav-item svg {
   margin-right: 10px;
 }
@@ -33,16 +32,23 @@
   align-items: center;
 }
 
-.nav-item:hover {
-  background-color: #495057;
-  cursor: pointer;
-  border-left: 3px solid rgba(221, 226, 255, 1);
-  /* Add left border on hover */
+li.nav-item {
+  --color: #9FA2B4; /* Default SVG color */
 }
 
-.nav-item:hover svg {
-  fill: #DDE2FF;
-  /* Change SVG color on hover */
+#menu li.nav-item svg path {
+  fill: var(--color); /* Apply default color */
+}
+
+#menu li.nav-item:hover {
+  background-color: #495057;
+  cursor: pointer;
+  color: #DDE2FF !important; /* Ensure the color changes on hover */
+  border-left: 3px solid rgba(221, 226, 255, 1);
+}
+
+#menu li.nav-item:hover svg path {
+  fill: #DDE2FF !important; /* Change SVG color on hover */
 }
 
 #active {
@@ -51,12 +57,10 @@
   height: 56px;
 }
 
-/* divider line set width height color and spacing */
+/* Divider line set width height color and spacing */
 #solid {
   width: 100%;
-  /* Adjusted to 100% for better responsiveness */
   padding: none;
-  width: 100%;
   height: 1px;
   background-color: #DFE0EB;
   margin: 10px 0;
@@ -69,23 +73,15 @@
 
 .navbar-brand {
   margin-left: 10px;
-  /* Add margin to the left of the navbar brand */
   font-size: 18px;
-  /* Adjusted font size */
-  margin: top 0;
-  /* Adjusted margin */
-  ;
   margin-bottom: 65px;
-
 }
 
 .container-fluid {
   padding: 0;
-  /* Adjusted to remove unnecessary padding */
   align-items: center;
   background-color: rgba(247, 248, 252, 1);
   overflow-x: hidden;
-  /* Hide horizontal overflow */
 }
 
 .card {
@@ -103,10 +99,6 @@
 #open,
 #overdue,
 #hold {
-
-  margin-top: 2%;
-  margin-bottom: 2%;
-  /* Adjust the margin value */
   margin-top: 2%;
   margin-bottom: 2%;
 }
@@ -117,7 +109,6 @@
 
 .card-header>p {
   margin-right: 75%;
-
 }
 
 #graphtitle {
@@ -143,7 +134,6 @@
 
 #create {
   color: rgba(159, 162, 180, 1);
-
 }
 
 /* Flex-grow for the graph card to make it expand */
@@ -151,8 +141,18 @@
   flex-grow: 1;
 }
 
+.col-md-5 {
+  border-left: 1px solid #DFE0EB;
+}
+
 #graph {
   width: 80%;
+}
+
+/* Vertical rule styling */
+.vr {
+  border-left: 1px solid #DFE0EB;
+  height: 100%;
 }
 
 /* Allow horizontal scrolling for rows */
