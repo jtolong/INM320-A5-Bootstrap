@@ -118,7 +118,31 @@ li.nav-item {
   font-size: 19px;
 }
 
-#graphtext {
+.float-right-1 img {
+  float: right;
+  width: 25%; /* Adjust the width as needed */
+}
+
+.float-right-2 img {
+  float: right;
+}
+
+/* Ensure the card fills the height of the container */
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Ensure the same-size divs are evenly spaced */
+.same-size {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.graphtext {
   color: rgba(159, 162, 180, 1);
   margin-right: 65%;
   font-size: 12px;
@@ -146,7 +170,7 @@ li.nav-item {
 }
 
 #graph {
-  width: 80%;
+  width: 100%;
 }
 
 /* Vertical rule styling */
@@ -160,4 +184,35 @@ li.nav-item {
   width: 100%;
   height: auto;
   overflow-x: auto;
+}
+
+.card-body h6 {
+  color: #9FA2B4 !important;
+}
+
+h6.card-title-graph {
+  color: #252733 !important; /* Adjust the color as needed */
+  font-size: 1.25rem; /* Adjust the font size as needed */
+  font-weight: 700; /* Adjust the font weight as needed */
+  margin-bottom: 1rem; /* Adjust the margin as needed */
+}
+p.card-text-graph{
+  color: #9FA2B4 !important;
+  
+}
+.card-body h5{
+  color: #9FA2B4 !important;
+}
+.display-4{
+  color: #252733 !important;
+}
+
+a.nav-link-overview{
+  color: #252733 !important;
+  text-decoration: none;
+}
+
+.navbar-nav{
+  --bs-nav-link-padding-y: 0 !important;
+  --bs-nav-link-padding-x: 0 !important;
 }
